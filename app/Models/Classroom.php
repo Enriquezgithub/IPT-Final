@@ -17,7 +17,7 @@ class Classroom extends Model
     ];
 
     public function loads(){
-        return $this->hasMany(Load::class);
+        return $this->hasMany(Loader::class);
     }
 
     public static function list(){
